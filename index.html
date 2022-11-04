@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .bg{ width: 100vw;
+            height: 100vh;
+            border: 2px solid rgb(17, 16, 16);
+            
+           background-image: url(hd-wallpaper-7496901_1920.jpg);
+
+        }
+      
+        body{
+            color:gold;
+            
+        }
+            .container{
+                
+            border: 5px solid rgb(250, 251, 251);
+            width: max-content;
+            height: max-content;
+            margin: 175px auto;
+            background-image: url(https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=600);
+            
+            
+            
+
+        }
+        .heading{
+            text-align: center;
+            font-size: 40px;
+        }
+        .ul{
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(8,auto);
+            grid-gap: 10px;
+            
+        }
+        .li{
+            font-weight: bold;
+            padding: 20px;
+            margin: 10px;
+            font-size: 20px;
+        }
+        .dates{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+        
+        }
+       .dates .btn:first-child{
+         grid-column-start: 3;
+        }
+       
+        .btn{
+            height: 50px;
+            width: 50px;
+          margin-left:30px;
+            
+            border: none;
+            background:none;
+            font-weight: bold;
+            font-size:0px;
+            font-size: 20px;
+            line-height: 30px;
+            color:rgb(251, 250, 251);
+        
+        }
+        .btn:hover{
+       
+           height: 50px;
+           width: 50px;
+           border-radius: 50%;
+            background:gold;
+            font-weight: bold;
+           
+            
+            
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bg">
+
+        <div class="container">
+            <h1 class="heading">December 2021</h1>
+        <ul class="ul">
+            <li class="li" id="li1">Sun</li>
+            <li class="li" id="li1">Mon</li>
+            <li class="li" id="li1">Tue</li>
+            <li class="li" id="li1">Wed</li>
+            <li class="li" id="li1">Thu</li>
+            <li class="li" id="li1">Fri</li>
+            <li class="li" id="li1">Sat</li>
+        </ul>
+        <div class="dates">
+            
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn">10</button>
+            <button class="btn">11</button>
+            <button class="btn">12</button>
+            <button class="btn">13</button>
+            <button class="btn">14</button>
+            <button class="btn">15</button>
+            <button class="btn">16</button>
+            <button class="btn">17</button>
+            <button class="btn">18</button>
+            <button class="btn">19</button>
+            <button class="btn">20</button>
+            <button class="btn">21</button>
+            <button class="btn">22</button>
+            <button class="btn">23</button>
+            <button class="btn">24</button>
+            <button class="btn">25</button>
+            <button class="btn">26</button>
+            <button class="btn">27</button>
+            <button class="btn">28</button>
+            <button class="btn">29</button>
+            <button class="btn">30</button>
+            <button class="btn">31</button>
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>
